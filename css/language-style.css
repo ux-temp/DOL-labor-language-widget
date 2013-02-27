@@ -58,6 +58,9 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 }
+#language-container-wrapper a {
+	text-decoration: none;
+}
 
 .ie7 #language-container-wrapper {
 	border-radius: 0;
@@ -100,12 +103,14 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 23px 3px 0 0;
 }
+
 .ie7 #phone-big-text,
 .ie8 #phone-big-text {
 	display: block;
-	margin: 22px 10px 0 0;
+	margin: 22px 3px 0 0;
 	line-height: 16pt;
 }
+
 
 #phone-small-text {
 	display: inline-block;
@@ -119,7 +124,7 @@ body {
 .ie7 #phone-small-text,
 .ie8 #phone-small-text {
 	display:block;
-	margin: 6px 10px 0 0;
+	margin: 4px 3px 0 0;
 }
 
 /*********************************
