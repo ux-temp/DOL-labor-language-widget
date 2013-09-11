@@ -1,5 +1,4 @@
-﻿	
-<div id="language-container-wrapper">
+﻿<div id="language-container-wrapper">
 	<a href="http://labor.ny.gov/immigrants/language-access.shtm">
 	<div id="language-phone-wrapper" >
 		<div id="phone-big-text">1-888-469-7365</div>
