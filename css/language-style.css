@@ -276,14 +276,15 @@ body {
 	background: -ms-linear-gradient(top, #E0E0E0 0%,#D0D0D0 100%,#CACACA 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #E0E0E0 0%,#D0D0D0 100%,#CACACA 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E0E0E0', endColorstr='#CACACA',GradientType=0 ); /* IE6-9 */
-	height: 16px;
+	height: 14px;
 	vertical-align: bottom;
+	padding-top: 8px;
 }
 #language-container-more-link {
 	display:inline;
-	margin-left: 10px;
-	padding-left: 15px;
-	height: 25px;
+	margin-left: 6px;
+	padding: 3px 0 0 15px;
+	height: auto;
 	background: url(../images/info.png) no-repeat left center transparent !important;
 	font-size: .8em;
 }
