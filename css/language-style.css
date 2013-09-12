@@ -62,6 +62,10 @@ body {
 	text-decoration: none;
 }
 
+#language-container-wrapper a:link, a:visited{
+	color: #5A5A5A;
+}
+
 .ie7 #language-container-wrapper {
 	border-radius: 0;
 }
@@ -71,7 +75,7 @@ body {
 #language-phone-wrapper {
 	height: 70px;
 	width: 100%;
-	background: background: #E0E0E0; /* Old browsers */
+	background: #E0E0E0; /* Old browsers */
 	background: -moz-linear-gradient(top, #E0E0E0 0%, #D0D0D0 40%, #CACACA 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E0E0E0), color-stop(40%,#D0D0D0), color-stop(100%,#CACACA)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, #E0E0E0 0%,#D0D0D0 40%,#CACACA 100%); /* Chrome10+,Safari5.1+ */
@@ -140,7 +144,7 @@ body {
 **  Language Widget Drop-Down List Section
 **********************************/
 #language-list-wrapper {
-	background: background: #E0E0E0; /* Old browsers */
+	background: #E0E0E0; /* Old browsers */
 	background: -moz-linear-gradient(top, #CACACA 72%, #D0D0D0 80%, #E0E0E0 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(72%,#CACACA), color-stop(80%,#D0D0D0), color-stop(100%,#E0E0E0)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, #CACACA 72%,#D0D0D0 80%,#E0E0E0 100%); /* Chrome10+,Safari5.1+ */
@@ -264,7 +268,7 @@ body {
 }	
 
 #language-container-bottom {
-	background: background: #CACACA; /* Old browsers */
+	background: #CACACA; /* Old browsers */
 	background: -moz-linear-gradient(top, #E0E0E0 0%, #D0D0D0 100%, #CACACA 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E0E0E0), color-stop(100%,#D0D0D0), color-stop(100%,#CACACA)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, #E0E0E0 0%,#D0D0D0 100%,#CACACA 100%); /* Chrome10+,Safari5.1+ */
@@ -272,5 +276,15 @@ body {
 	background: -ms-linear-gradient(top, #E0E0E0 0%,#D0D0D0 100%,#CACACA 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #E0E0E0 0%,#D0D0D0 100%,#CACACA 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E0E0E0', endColorstr='#CACACA',GradientType=0 ); /* IE6-9 */
-	height: 14px;
+	height: 16px;
+	vertical-align: bottom;
 }
+#language-container-more-link {
+	display:inline;
+	margin-left: 10px;
+	padding-left: 15px;
+	height: 25px;
+	background: url(../images/info.png) no-repeat left center transparent !important;
+	font-size: .8em;
+}
+

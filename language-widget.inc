@@ -69,6 +69,6 @@
 		</ul>
 	</div>
 	<div id="language-container-bottom">
-
+		<a id="language-container-more-link" href="#" >more information</a>
 	</div>	
 </div>
