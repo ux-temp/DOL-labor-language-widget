@@ -21,5 +21,10 @@
 				
 		<script src="../js/jquery.js" ></script>
 		<script src="../js/expandables.js" ></script>
+		<script>
+			$(document).ready(function() {
+				$('a').attr('target','_blank');
+			});
+		</script>
 	</body>
 </html>
