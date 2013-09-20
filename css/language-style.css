@@ -289,4 +289,6 @@ body {
 	background: url(../images/info.png) no-repeat left center transparent !important;
 	font-size: .8em;
 }
-
+#language-container-more-link:hover {
+	text-decoration: underline;
+}

@@ -69,6 +69,6 @@
 		</ul>
 	</div>
 	<div id="language-container-bottom">
-		<a id="language-container-more-link" href="http://labor.ny.gov/immigrants/language-access-complaint.shtm" >more information</a>
+		<a id="language-container-more-link" href="http://labor.ny.gov/immigrants/language-access-complaint.shtm" >More information</a>
 	</div>	
 </div>
