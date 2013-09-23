@@ -62,7 +62,7 @@ body {
 	text-decoration: none;
 }
 
-#language-container-wrapper a:link, a:visited{
+#language-container-wrapper a:link, #language-container-wrapper a:visited{
 	color: #5A5A5A;
 }
 
