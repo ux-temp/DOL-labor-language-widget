@@ -43,11 +43,6 @@
 /**************
 **  Language Widget Container
 ***************/
-/*
-body {
-	margin: 0px;
-	padding: 0px;
-}*/
 
 #language-container-wrapper {
 	border: 1px solid #CCC;
@@ -284,11 +279,14 @@ body {
 #language-container-more-link {
 	display:inline;
 	margin-left: 6px;
-	padding: 3px 0 0 15px;
+	padding: 4px 0 2px 20px;
+	line-height: 1.6;
 	height: auto;
 	background: url(../images/info.png) no-repeat left center transparent !important;
-	font-size: .8em;
+	font-size: .9em;
 }
+
 #language-container-more-link:hover {
 	text-decoration: underline;
 }
+
